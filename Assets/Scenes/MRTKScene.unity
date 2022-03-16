@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1481.7754, g: 1835.8867, b: 2430.4492, a: 1}
+  m_IndirectSpecularColor: {r: 1481.7451, g: 1835.5391, b: 2429.8105, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -15370,6 +15370,104 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8936771215430862609, guid: 92e859c764174cf4385acf2f713357cc, type: 3}
   m_PrefabInstance: {fileID: 1404506854}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1409514560
+GameObject:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409514562}
+  - component: {fileID: 1409514561}
+  m_Layer: 0
+  m_Name: SceneIDMap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1409514561
+MonoBehaviour:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409514560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2069832983}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Entries:
+  - id: 0
+    category: 0
+    gameObject: {fileID: 1909621619}
+  - id: 1
+    category: 0
+    gameObject: {fileID: 1638447525}
+  - id: 2
+    category: 0
+    gameObject: {fileID: 1696653815}
+  - id: 3
+    category: 0
+    gameObject: {fileID: 1827581732}
+  - id: 4
+    category: 0
+    gameObject: {fileID: 1587207273}
+  - id: 5
+    category: 0
+    gameObject: {fileID: 1009039354}
+  - id: 6
+    category: 0
+    gameObject: {fileID: 109120890}
+  - id: 7
+    category: 0
+    gameObject: {fileID: 6535239024185873326}
+  - id: 8
+    category: 0
+    gameObject: {fileID: 326594296}
+  - id: 9
+    category: 0
+    gameObject: {fileID: 1061273500}
+  - id: 10
+    category: 0
+    gameObject: {fileID: 1669868154}
+  - id: 11
+    category: 0
+    gameObject: {fileID: 303614828}
+  - id: 12
+    category: 0
+    gameObject: {fileID: 461907917}
+  - id: 13
+    category: 0
+    gameObject: {fileID: 1973713850}
+  - id: 14
+    category: 0
+    gameObject: {fileID: 284117423428631096}
+  - id: 15
+    category: 0
+    gameObject: {fileID: 361274623}
+  - id: 16
+    category: 0
+    gameObject: {fileID: 1634791761}
+  - id: 17
+    category: 0
+    gameObject: {fileID: 6829005784479174355}
+--- !u!4 &1409514562
+Transform:
+  m_ObjectHideFlags: 19
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409514560}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1425786419
 GameObject:
   m_ObjectHideFlags: 0
@@ -26522,6 +26620,20 @@ MonoBehaviour:
   m_Offset: {x: 0, y: 0, z: 1.5}
   m_Size: {x: 8, y: 8, z: 3}
   m_FadeFactor: 0.18
+--- !u!115 &2069832983
+MonoScript:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 5
+  m_Script: 
+  m_DefaultReferences: {}
+  m_Icon: {fileID: 0}
+  m_ExecutionOrder: 0
+  m_ClassName: SceneObjectIDMapSceneAsset
+  m_Namespace: UnityEngine.Rendering.HighDefinition
 --- !u!1 &2076744743
 GameObject:
   m_ObjectHideFlags: 0
